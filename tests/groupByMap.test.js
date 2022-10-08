@@ -34,10 +34,6 @@ describe("groupByMap", () => {
       "Red",
     ];
 
-    // const groupByOddOrEven = groupByMap([1, 2, 3, 4, 5, 6, 7, 8, 9], (v) =>
-//   v % 2 ? "odd" : "even"
-// );
-
     const groupedColors = groupByMap(colors, v => v[0]);
     const b = groupedColors.get('B');
     const r = groupedColors.get('R');
