@@ -1,0 +1,22 @@
+{
+  "name": "eternal-javascript",
+  "version": "1.0.0",
+  "description": "This repository is a place where i can think about, test and write JavaScript code on a daily basis outside of my work responsibilities  (where I think about, test and write code too!).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahadb/eternal-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahadb/eternal-javascript/issues"
+  },
+  "homepage": "https://github.com/ahadb/eternal-javascript#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
