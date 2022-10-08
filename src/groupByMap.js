@@ -22,29 +22,3 @@ function groupByMap(list, keyGetter) {
 }
 
 module.exports = groupByMap;
-
-const groceries = [
-  { name: "asparagus", type: "vegetables", quantity: 9 },
-  { name: "bananas", type: "fruit", quantity: 5 },
-  { name: "steak", type: "meat", quantity: 23 },
-  { name: "cherries", type: "fruit", quantity: 12 },
-  { name: "fish", type: "meat", quantity: 22 },
-];
-
-const colors = [
-  "Apricot",
-  "Brown",
-  "Burgundy",
-  "Cerulean",
-  "Peach",
-  "Pear",
-  "Red",
-];
-
-const groupByDataType = groupByMap(groceries, (grocery) => grocery.type);
-// const groupByOddOrEven = groupByMap([1, 2, 3, 4, 5, 6, 7, 8, 9], (v) =>
-//   v % 2 ? "odd" : "even"
-// );
-// const groupByColor = groupByMap(colors, (v) => v[0]);
-console.log(groupByDataType)
-console.log(groupByDataType.get('fruits'))
