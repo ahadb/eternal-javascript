@@ -14,8 +14,8 @@ describe("chunk", () => {
   });
 
   test("should handle a larger array and create 1000 chunks based on size of 1", () => {
-    const arrKeys = Array.from(Array(1000).keys());
-    const chunkedArray = chunkArray(arrKeys, 1);
+    const arrFromKeys = Array.from(Array(1000).keys());
+    const chunkedArray = chunkArray(arrFromKeys, 1);
 
     expect(chunkedArray[chunkedArray.length - 1]).toEqual([999]);
     //console.log(chunkedArray[0])
