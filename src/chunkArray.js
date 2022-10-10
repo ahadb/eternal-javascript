@@ -21,4 +21,4 @@ function chunkArray(array, size) {
     return chunked_arr;
 }
 
-module.exports = chunkArray;
+export default chunkArray;

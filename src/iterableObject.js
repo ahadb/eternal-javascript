@@ -54,4 +54,4 @@ for (let day of daysOfYearsSimplified) {
     // do something
 }
 
-module.exports = daysOfYearsSimplified;
+export { daysOfYearsSimplified }

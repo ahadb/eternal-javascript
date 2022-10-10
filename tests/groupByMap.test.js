@@ -1,4 +1,4 @@
-const groupByMap = require("../src/groupByMap");
+import groupByMap from '../src/groupByMap';
 
 describe("groupByMap", () => {
   test("should group by data type", () => {
@@ -43,16 +43,6 @@ describe("groupByMap", () => {
   });
 
   test("should group by odd or even", () => {
-    const colors = [
-      "Apricot",
-      "Brown",
-      "Burgundy",
-      "Cerulean",
-      "Peach",
-      "Pear",
-      "Red",
-    ];
-
     const groupByOddOrEven = groupByMap([1, 2, 3, 4, 5, 6, 7, 8, 9], (v) =>
       v % 2 ? "odd" : "even"
     );

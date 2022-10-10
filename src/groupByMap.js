@@ -21,4 +21,4 @@ function groupByMap(list, keyGetter) {
   return map;
 }
 
-module.exports = groupByMap;
+export default groupByMap;

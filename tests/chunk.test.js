@@ -1,4 +1,4 @@
-const chunkArray = require("../src/chunkArray");
+import chunkArray from '../src/chunkArray';
 
 describe("chunk", () => {
   test("should create 3 chunks based on size of 2", () => {
@@ -18,6 +18,5 @@ describe("chunk", () => {
     const chunkedArray = chunkArray(arrFromKeys, 1);
 
     expect(chunkedArray[chunkedArray.length - 1]).toEqual([999]);
-    //console.log(chunkedArray[0])
   });
 });

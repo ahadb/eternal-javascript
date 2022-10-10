@@ -10,6 +10,7 @@ It's in a fledgling state, but it grows I hope this repository can be a companio
 * `10/05/22`: groupByMap
 * `10/08/22`: chunkArray
 * `10/09/22`: iterableObject
+* `10/10/22`: Singleton
 
 ### Todos
 
