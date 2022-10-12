@@ -15,6 +15,9 @@ journey and thirst for knowledge.
 * `10/11/22`: naturalNumGenerator
 * `10/11/22`: vanillaUseState
 * `10/12/22`: vanillaTest
+* `10/13/22`: modulePattern
+* `10/13/22`: revealingModulePattern
+* `10/14/22`: statefulUI
 
 ### Todos
 

@@ -8,10 +8,6 @@
  * @returns {Boolean}
  */
 function includesEvery(arr, subarr) {
-  if(arr || subarr === undefined) {
-    throw Error('Undefined')
-  }
-
   for (let item of subarr) {
     if (!arr.includes(item)) return false;
   }
