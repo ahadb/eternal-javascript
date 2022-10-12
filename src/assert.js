@@ -26,17 +26,17 @@ const describe = function (message, callback) {
  * @param {*}
  * @returns {Object}
  */
-const expect = function (value) {
+const assert = function (value) {
   return {
     toBe: function (expected) {
       if (value === expected) {
         console.log({
-          name: `expect ${value} toBe ${expected}`,
+          name: `assert ${value} toBe ${expected}`,
           status: true,
         });
       } else {
         console.log({
-          name: `expect ${value} toBe ${expected}`,
+          name: `assert ${value} toBe ${expected}`,
           status: false,
         });
       }
@@ -44,12 +44,12 @@ const expect = function (value) {
     toEqual: function (expected) {
       if (value == expected) {
         console.log({
-          name: `expect ${value} toEqual ${expected}`,
+          name: `assert ${value} toEqual ${expected}`,
           status: true,
         });
       } else {
         console.log({
-          name: `expect ${value} toEqual ${expected}`,
+          name: `assert ${value} toEqual ${expected}`,
           status: false,
         });
       }
@@ -76,18 +76,18 @@ const calculator = function (operator, number1, number2) {
 
 /*
 describe("calculator", function () {
-  expect(calculator("+", 100, 100)).toEqual(200);
-  expect(calculator("-", 100, 100)).toEqual(0);
-  expect(calculator("*", 100, 100)).toEqual(10000);
-  expect(calculator("/", 10000, 100)).toEqual(10);
-  expect(1).toBe("one");
+  assert(calculator("+", 100, 100)).toEqual(200);
+  assert(calculator("-", 100, 100)).toEqual(0);
+  assert(calculator("*", 100, 100)).toEqual(10000);
+  assert(calculator("/", 10000, 100)).toEqual(10);
+  assert(1).toBe("one");
 });
 
-{ name: 'expect 200 toEqual 200', status: true }
-{ name: 'expect 0 toEqual 0', status: true }
-{ name: 'expect 10000 toEqual 10000', status: true }
-{ name: 'expect 100 toEqual 10', status: false }
-{ name: 'expect 1 toBe one', status: false }
+{ name: 'assert 200 toEqual 200', status: true }
+{ name: 'assert 0 toEqual 0', status: true }
+{ name: 'assert 10000 toEqual 10000', status: true }
+{ name: 'assert 100 toEqual 10', status: false }
+{ name: 'assert 1 toBe one', status: false }
 */
 
-//export default { describe, expect };
+//export default { describe, assert };

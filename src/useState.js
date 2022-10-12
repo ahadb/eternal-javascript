@@ -6,7 +6,7 @@
  * @param {*}
  * @returns {*[]}
  */
-function vanillaUseState(initialState) {
+function useState(initialState) {
   let value = initialState;
   function getValue() {
     return value;
@@ -17,4 +17,4 @@ function vanillaUseState(initialState) {
   return [getValue, setValue];
 }
 
-export default vanillaUseState;
+export default useState;

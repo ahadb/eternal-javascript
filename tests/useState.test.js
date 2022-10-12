@@ -1,8 +1,8 @@
-import vanillaUseState from "../src/vanillaUseState";
+import useState from "../src/useState";
 
 describe("vanillaUseState", () => {
   test("should get and set a counter's state", () => {
-    const [counter, setCounter] = vanillaUseState(0);
+    const [counter, setCounter] = useState(0);
 
     function increment() {
       setCounter(counter() + 1);
@@ -23,7 +23,7 @@ describe("vanillaUseState", () => {
   });
 
   test("should get and set an object's state", () => {
-    const [obj, setObj] = vanillaUseState({
+    const [obj, setObj] = useState({
       name: "Ahad",
       gender: "Male",
       prefers: "JavaScript",
