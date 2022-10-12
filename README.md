@@ -14,6 +14,7 @@ journey and thirst for knowledge.
 * `10/10/22`: Singleton
 * `10/11/22`: naturalNumGenerator
 * `10/11/22`: vanillaUseState
+* `10/12/22`: vanillaTest
 
 ### Todos
 
