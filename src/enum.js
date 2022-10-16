@@ -3,6 +3,7 @@
  * Enum Class returns a frozen object as an enum.
  * this can be further improved by iterables, toString,
  * or whatever you prefer.
+ *
  * @readonly
  */
 class Enum {
@@ -12,6 +13,9 @@ class Enum {
         });
         Object.freeze(this);
     }
+
+    // toString
+    // iterable
 }
 
 /**
@@ -26,3 +30,5 @@ const Colors = Object.freeze({
     BLUE:  { name: "blue", hex: "#00f" },
     GREEN: { name: "green", hex: "#0f0" }
 });
+
+export default Enum;
