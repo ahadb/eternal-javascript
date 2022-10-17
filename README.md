@@ -18,7 +18,4 @@ journey and thirst for knowledge.
 * `10/13/22`: modulePattern
 * `10/13/22`: revealingModulePattern
 * `10/14/22`: statefulUI
-
-### Todos
-
-- [x] Add Jest (or Nodes assert, or Mocha/Chai)
+* `10/16/22`: pubSubPattern
