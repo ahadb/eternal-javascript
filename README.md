@@ -11,6 +11,7 @@ journey and thirst for knowledge.
 * `10/05/22`: groupByMap
 * `10/08/22`: chunkArray
 * `10/09/22`: iterableObject
+* `10/09/22`: boolValidator
 * `10/10/22`: Singleton
 * `10/11/22`: naturalNumGenerator
 * `10/11/22`: vanillaUseState
@@ -18,4 +19,7 @@ journey and thirst for knowledge.
 * `10/13/22`: modulePattern
 * `10/13/22`: revealingModulePattern
 * `10/14/22`: statefulUI
+* `10/15/22`: assert
+* `10/15/22`: enum
 * `10/16/22`: pubSubPattern
+* `10/16/22`: proxyEnum
