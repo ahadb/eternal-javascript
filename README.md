@@ -9,6 +9,7 @@ journey and thirst for knowledge.
 ### Entries
 
 * `10/05/22`: groupByMap
+* `10/06/22`: itemCount
 * `10/08/22`: chunkArray
 * `10/09/22`: iterableObject
 * `10/09/22`: boolValidator
@@ -23,3 +24,6 @@ journey and thirst for knowledge.
 * `10/15/22`: enum
 * `10/16/22`: pubSubPattern
 * `10/16/22`: proxyEnum
+* `10/18/22`: SinglyLinkedList, LinkedListNode
+* `10/22/22`: Stack
+* `10/24/22`: Queue
