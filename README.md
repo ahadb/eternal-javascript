@@ -23,3 +23,8 @@ journey and thirst for knowledge.
 * `10/15/22`: enum
 * `10/16/22`: pubSubPattern
 * `10/16/22`: proxyEnum
+* `10/18/22`: areSetsEqual
+* `10/20/22`: SinglyLinkedList
+* `10/23/22`: itemCount
+* `10/24/22`: Queue
+* `10/24/22`: Stack
