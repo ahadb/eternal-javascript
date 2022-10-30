@@ -1,4 +1,4 @@
-import LinkedListNode from "./LinkedListNode";
+import LinkedListNode from "../src/LinkedListNode.js";
 
 class SinglyLinkedList {
     constructor() {
