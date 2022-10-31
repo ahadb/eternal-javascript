@@ -29,3 +29,5 @@ journey and thirst for knowledge.
 * `10/23/22`: itemCount
 * `10/24/22`: Stack
 * `10/24/22`: Queue
+* `10/27/22`: createDynamicArray
+* `10/31/22`: bubbleSort
