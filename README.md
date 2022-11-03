@@ -31,4 +31,5 @@ journey and thirst for knowledge.
 * `10/24/22`: Queue
 * `10/27/22`: createRandomArray
 * `10/31/22`: bubbleSort
-* `11/01/22`: linearSearch, binarySearch, recursiveBinarySearch
+* `11/01/22`: linearSearch, binarySearch (+recursive binary search version)
+* `11/03/22`: fibonacci (+recursive fibonacci version)
