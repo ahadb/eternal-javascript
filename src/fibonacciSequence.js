@@ -10,7 +10,7 @@
 function fibonacciSequence(sequenceLen) {
   let fibSequence = [0, 1];
 
-  for (let i = fib.length; i < sequenceLen; i++) {
+  for (let i = fibSequence.length; i < sequenceLen; i++) {
     fibSequence[i] = fibSequence[i - 2] + fibSequence[i - 1];
   }
 

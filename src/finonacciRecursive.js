@@ -6,11 +6,11 @@
  * @param n number
  * @returns number
  */
-function fibonacciReqcursive(n) {
-  if (n <= 0) {
+function fibonacciRecursive(n) {
+  if (n <= 1) {
     return n;
   } else {
-    return fibonacciReqcursive(n - 1) + fibonacciReqcursive(n - 2);
+    return fibonacciRecursive(n - 1) + fibonacciRecursive(n - 2);
   }
 }
 
@@ -18,4 +18,4 @@ function fibonacciReqcursive(n) {
 //   return n <= 1 ? n : fibTernary(n - 1) + fibTernary(n - 2);
 // }
 
-export { fibonacciReqcursive };
+export { fibonacciRecursive };
