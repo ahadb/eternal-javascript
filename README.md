@@ -36,3 +36,4 @@ journey and thirst for knowledge.
 * `11/03/22`: fibonacci (+recursive fibonacci version)
 * `11/07/22`: selectionSort
 * `11/08/22`: insertionSort
+* `11/08/22`: anagram
