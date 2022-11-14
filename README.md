@@ -37,3 +37,4 @@ journey and thirst for knowledge.
 * `11/07/22`: selectionSort
 * `11/08/22`: insertionSort
 * `11/08/22`: anagram
+* `11/13/22`: zumEqualsZero, zumEqualsZeroWithPointer
