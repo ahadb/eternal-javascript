@@ -51,7 +51,7 @@ class BST {
    * @param value
    * @returns {BST|*}
    */
-  find(value) { // returns the node if found and false if not found
+  find(value) {
     if (this.root === null) {
       return false;
     }
@@ -73,7 +73,13 @@ class BST {
     return current;
   }
 
-  contains(value) { // contains returns true or false based on finding node, not node itself
+  /**
+   * Contains method - returns true or false based on finding node, not node itself
+   * the Node if found, else returns false
+   * @param value
+   * @returns {Boolean}
+   */
+  contains(value) { // contains
     if (this.root === null) {
       return false;
     }
@@ -92,6 +98,37 @@ class BST {
 
     return false;
   }
+
+  BFS() {
+    const data = [];
+    const queue = [];
+    let node = this.root;
+
+    queue.push(this.root);
+    while(queue.length) {
+      node = queue.shift();
+      data.push(node);
+
+      if(node.left) {
+        queue.push(node.left);
+      }
+      if(node.right) {
+        queue.push(node.right)
+      }
+
+      return data
+    }
+  }
+
+  /*
+  QUEUE: []
+  DATA: []
+
+         10
+      6      15
+    3   8       20
+
+   */
 }
 
 /*
