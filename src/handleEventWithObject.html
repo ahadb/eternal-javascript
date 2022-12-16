@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button id="button">Click me</button>
+
+<script>
+  class Button {
+    handleEvent(event) {
+      switch(event.type){
+        case 'mousedown':
+          elem.innerHTML = "Button pressed";
+          break;
+        case 'mouseup':
+          elem.innerHTML = '...released';
+          break;
+      }
+    }
+  }
+
+  let events = new Button();
+  const el = document.getElementById('button');
+
+  el.addEventListener('mousedown', events);
+  el.addEventListener('mouseup', events);
+</script>
+</body>
+</html>
