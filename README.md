@@ -41,3 +41,4 @@ journey and thirst for knowledge.
 * `11/28/22`: maxSumArray
 * `11/29/22`: Binary Search Tree
 * `12/16/22`: handleEventWithObject
+* `01/01/22`: taggedTemplateLiteral
