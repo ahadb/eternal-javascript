@@ -43,3 +43,4 @@ journey and thirst for knowledge.
 * `12/16/22`: handleEventWithObject
 * `01/01/22`: taggedTemplateLiteral
 * `01/03/22`: string.prototype.replaceAll
+* `01/04/22`: reverseString
