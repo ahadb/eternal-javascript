@@ -23,3 +23,5 @@ function reverseStrReduce(str) {
     return char + reversed
   }, '')
 }
+
+export { reverseStrForOf, reverseStrReduce }
