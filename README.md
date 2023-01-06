@@ -45,3 +45,4 @@ journey and thirst for knowledge.
 * `01/03/23`: string.prototype.replaceAll
 * `01/04/23`: reverseString
 * `01/05/23`: reverseInt
+* `01/06/23`: palindrome
