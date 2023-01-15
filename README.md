@@ -36,7 +36,7 @@ journey and thirst for knowledge.
 * `11/03/22`: fibonacci (+recursive fibonacci version)
 * `11/07/22`: selectionSort
 * `11/08/22`: insertionSort
-* `11/08/22`: anagram
+* `11/08/22`: anagram + different solutions
 * `11/13/22`: zumEqualsZero, zumEqualsZeroWithPointer
 * `11/28/22`: maxSumArray
 * `11/29/22`: Binary Search Tree
