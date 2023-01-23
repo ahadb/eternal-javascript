@@ -47,7 +47,8 @@ journey and thirst for knowledge.
 * `01/05/23`: palindrome
 * `01/06/23`: maxChar
 * `01/09/23`: reverseInt
-* `01/10/23`: fizBuzz
+* `01/10/23`: fizzBuzz
 * `01/13/23`: mockAsync
 * `01/15/23`: promiseAsync
 * `01/17/23`: capitalizeFirstLetterInSentence
+* `01/22/23`: printSteps
