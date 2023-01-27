@@ -52,3 +52,4 @@ journey and thirst for knowledge.
 * `01/15/23`: promiseAsync
 * `01/17/23`: capitalizeFirstLetterInSentence
 * `01/22/23`: printSteps
+* `01/26/23`: List
