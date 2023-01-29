@@ -53,3 +53,4 @@ journey and thirst for knowledge.
 * `01/17/23`: capitalizeFirstLetterInSentence
 * `01/22/23`: printSteps
 * `01/26/23`: List
+* `01/28/23`: updateArrSpread
