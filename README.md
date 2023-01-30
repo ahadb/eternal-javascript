@@ -54,3 +54,4 @@ journey and thirst for knowledge.
 * `01/22/23`: printSteps
 * `01/26/23`: List
 * `01/28/23`: updateArrSpread
+* `01/29/23`: arrayCheatSheet, stringCheatSheet
