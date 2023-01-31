@@ -1,4 +1,10 @@
-import BSTNode from "./BSTNode.js";
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
+}
 
 class BST {
   constructor() {
@@ -12,7 +18,7 @@ class BST {
    * @returns {BST|*}
    */
   insert(value) {
-    const newNode = new BSTNode(value);
+    const newNode = new Node(value);
     if (this.root === null) {
       this.root = newNode;
       return this;
@@ -79,7 +85,8 @@ class BST {
    * @param value
    * @returns {Boolean}
    */
-  contains(value) { // contains
+  contains(value) {
+    // contains
     if (this.root === null) {
       return false;
     }
@@ -105,18 +112,18 @@ class BST {
     let node = this.root;
 
     queue.push(this.root);
-    while(queue.length) {
+    while (queue.length) {
       node = queue.shift();
       data.push(node);
 
-      if(node.left) {
+      if (node.left) {
         queue.push(node.left);
       }
-      if(node.right) {
-        queue.push(node.right)
+      if (node.right) {
+        queue.push(node.right);
       }
 
-      return data
+      return data;
     }
   }
 
@@ -133,12 +140,14 @@ class BST {
 
 /*
 const tree = new BST();
-tree.root = new BSTNode(10);
-tree.root.right = new BSTNode(20);
-tree.root.left = new BSTNode(5);
-tree.root.left.right = new BSTNode(7);
+tree.root = new Node(10);
+tree.root.right = new Node(20);
+tree.root.left = new Node(5);
+tree.root.left.right = new Node(7);
 
             10
         5       13
       2   7   11  16
  */
+
+export {Node, BST}
