@@ -14,7 +14,7 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `10/24/22`: Queue
 * `11/29/22`: Binary Search Tree
 * `01/26/23`: List
-* `01/26/23`: Tree
+* `01/31/23`: TreeNode, Tree (BFS, DFS)
 
 #### Interview Questions
 
@@ -33,6 +33,8 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `01/10/23`: fizzBuzz
 * `01/17/23`: capitalizeFirstLetterInSentence
 * `01/31/23`: findVowels
+* `02/01/23`: frequency
+* `02/02/23`: isBalanced
 
 #### Day to Day Code
 
@@ -62,5 +64,7 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `01/03/23`: string.prototype.replaceAll
 * `01/13/23`: mockAsync
 * `01/15/23`: promiseAsync
+* `01/18/23`: protoTypePattern
+* `01/19/23`: emitter
 * `01/28/23`: updateArrSpread
 * `01/29/23`: arrayCheatSheet, stringCheatSheet

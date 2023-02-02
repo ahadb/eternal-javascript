@@ -23,3 +23,5 @@ function fizzBuzz(n) {
 }
 
 fizzBuzz(5);
+
+export default fizzBuzz;
