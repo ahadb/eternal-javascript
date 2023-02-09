@@ -68,4 +68,5 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `01/19/23`: emitter
 * `01/28/23`: updateArrSpread
 * `01/29/23`: arrayCheatSheet, stringCheatSheet
-* `02/05/23`: codeSmellsMagicValues
+* `03/07/23`: codeSmells (magic values)
+* `02/09/23`: codeSmells (primitive value abuse)
