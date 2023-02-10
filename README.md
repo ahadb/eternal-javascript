@@ -36,7 +36,7 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `02/01/23`: frequency
 * `02/02/23`: isBalanced
 
-#### Day to Day Code
+#### Day to Day, ES6, ES2016++
 
 * `10/09/22`: iterableObject
 * `10/09/22`: boolValidator
@@ -63,10 +63,12 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `01/01/22`: taggedTemplateLiteral
 * `01/03/23`: string.prototype.replaceAll
 * `01/13/23`: mockAsync
-* `01/15/23`: promiseAsync
+* `01/15/23`: promiseAsync (using setTimeout)
 * `01/18/23`: protoTypePattern
 * `01/19/23`: emitter
 * `01/28/23`: updateArrSpread
 * `01/29/23`: arrayCheatSheet, stringCheatSheet
 * `03/07/23`: codeSmells (magic values)
 * `02/09/23`: codeSmells (primitive value abuse)
+* `02/10/23`: callbackHell (promise chaining)
+* `02/10/23`: async (await)
