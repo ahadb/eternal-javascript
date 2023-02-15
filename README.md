@@ -35,6 +35,8 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `01/31/23`: findVowels
 * `02/01/23`: frequency
 * `02/02/23`: isBalanced
+* `02/14/23`: allCharsSame (one string)
+* `02/15/23`: allCharsSame (compare two strings)
 
 #### Day to Day, ES6, ES2016++
 
@@ -73,3 +75,4 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `02/10/23`: callbackHell (promise chaining)
 * `02/10/23`: async (await)
 * `02/14/23`: renameKeys (spread, reduce)
+* `02/15/23`: isIterable
