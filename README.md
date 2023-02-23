@@ -76,3 +76,4 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `02/10/23`: async (await)
 * `02/14/23`: renameKeys (spread, reduce)
 * `02/15/23`: isIterable
+* `02/22/23`: isType
