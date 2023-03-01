@@ -77,3 +77,4 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `02/14/23`: renameKeys (spread, reduce)
 * `02/15/23`: isIterable
 * `02/22/23`: isType
+* `03/01/23`: objectStore
