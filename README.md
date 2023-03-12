@@ -79,3 +79,4 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `02/22/23`: isType
 * `03/01/23`: objectStore
 * `03/06/23`: factoryPattern
+* `03/12/23`: pluck
