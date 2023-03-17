@@ -7,6 +7,10 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 
 ### Entries
 
+#### Clean Code
+
+* `03/19/22`: Variables
+
 #### Data Structures
 
 * `10/18/22`: SinglyLinkedList, LinkedListNode
