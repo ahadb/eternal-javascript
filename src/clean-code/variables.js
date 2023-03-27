@@ -40,7 +40,7 @@ countries.forEach((country) => {
 
 /**
  * @desc
- * Avoid unneeded context
+ * Variables - Avoid unneeded context
  *
  */
 
