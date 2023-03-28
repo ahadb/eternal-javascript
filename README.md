@@ -10,7 +10,8 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 #### Clean Code
 
 * `03/19/22`: Variables
-* `03/27/22`: Objects
+* `03/24/22`: Objects
+* `03/27/22`: Functions
 
 #### Data Structures
 

@@ -6,17 +6,17 @@
  *
  */
 
-// bad
+// BAD
 function makeGroceryList() {
-  // ..
+  // ...
 
   return {
     items: 0
-    // ..
+    // ...
   }
 }
 
-// good
+// GOOD
 function makeGroceryList() {
   let items = 0;
 
@@ -32,7 +32,7 @@ function makeGroceryList() {
   }
 
   return {
-    // ..
+    // ...
     getItems,
     setItem
   }

@@ -4,10 +4,10 @@
  *
  */
 
-// bad
+// BAD
 const mmddyyyy = moment().format("MM/DD/YYYY");
 
-// good
+// GOOD
 const currentDate = moment().format("MM/DD/YYYY");
 
 /**
@@ -16,7 +16,7 @@ const currentDate = moment().format("MM/DD/YYYY");
  *
  */
 
-// bad
+// BAD
 const countries = ["US", "UK", "Israel"];
 countries.forEach((c) => {
   doSomething();
@@ -27,7 +27,7 @@ countries.forEach((c) => {
   dispatch(c);
 });
 
-// good
+// GOOD
 const countries = ["US", "UK", "Israel"];
 countries.forEach((country) => {
   doSomething();
@@ -44,7 +44,7 @@ countries.forEach((country) => {
  *
  */
 
-// bad
+// BAD
 const Pet = {
   petName: "Alex",
   petType: "Dog",
@@ -55,7 +55,7 @@ function changePetName(pet, color) {
   pet.petColor = color;
 }
 
-// good
+// GOOD
 const Pet = {
   name: "Alex",
   type: "Dog",
