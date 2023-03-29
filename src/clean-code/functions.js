@@ -1,6 +1,8 @@
 /**
  * @desc
- * Functions - Function names should state what they do
+ * =====
+ * Functions: Function names should state what they do
+ * =====
  */
 
 // BAD
@@ -25,7 +27,9 @@ appendLetterToAlphabet(items, "Epsilon");
 
 /**
  * @desc
- * Functions - Avoid creating duplicate code
+ * =====
+ * Functions: Avoid creating duplicate code
+ * =====
  */
 
 // BAD
@@ -42,7 +46,7 @@ function initStocksList(stocks, payload) {
       ...payload,
     };
 
-    init(stockData)
+    init(stockData);
   });
 }
 
@@ -75,14 +79,47 @@ function initInvestorList(funds, payload) {
       ...payload,
     };
 
-    switch(fund.type) {
+    switch (fund.type) {
       case "stockAsk":
         fundData.stockAsk = fund.getStockAsk();
         break;
       case "bondAsk":
         fundData.bondAsk = fund.getBondAsk();
+
+      // ...
     }
 
     init(fundData);
   });
 }
+
+/**
+ * @desc
+ * =====
+ * Functions: Arguments
+ * - use two function arguments, if you're using more then your function
+ * - is trying to do too much
+ *
+ * - destructuring helps and clones primitive values of the argument object
+ * =====
+ */
+
+// BAD
+function createNav(label, description, body, isSelected) {
+  // ...
+}
+
+createNav("About", "About our company", "Foo", false);
+
+// GOOD
+function createNav({ label, description, body, isSelected }) {
+  // ...
+}
+
+// clear what properties are being used
+createNav({
+  label: 'About',
+  description: 'About our company',
+  body: 'Foo',
+  isSelected: false
+});
