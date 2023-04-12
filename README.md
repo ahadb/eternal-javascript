@@ -7,12 +7,6 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 
 ### Entries
 
-#### Clean Code
-
-* `03/19/22`: Variables
-* `03/24/22`: Objects
-* `03/27/22`: Functions
-
 #### Data Structures
 
 * `10/18/22`: SinglyLinkedList, LinkedListNode
@@ -87,3 +81,9 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `03/06/23`: factoryPattern
 * `03/09/23`: pluck
 * `03/13/23`: pickObjKeys
+
+#### Clean Code
+
+* `03/19/22`: Variables
+* `03/24/22`: Objects
+* `03/27/22`: Functions

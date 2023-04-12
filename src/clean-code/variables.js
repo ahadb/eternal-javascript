@@ -1,7 +1,8 @@
 /**
  * @desc
- * Variables - Meaningful Names
- *
+ * =====
+ * Variables: Meaningful Names
+ * =====
  */
 
 // BAD
@@ -12,7 +13,9 @@ const currentDate = moment().format("MM/DD/YYYY");
 
 /**
  * @desc
- * Variables - Explicit is better than implicit
+ * =====
+ * Variables: Explicit is better than implicit
+ * =====
  *
  */
 
@@ -40,7 +43,9 @@ countries.forEach((country) => {
 
 /**
  * @desc
- * Variables - Avoid unneeded context
+ * =====
+ * Variables: Avoid unneeded context
+ * =====
  *
  */
 

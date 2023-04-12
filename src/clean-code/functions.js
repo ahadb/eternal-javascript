@@ -118,8 +118,39 @@ function createNav({ label, description, body, isSelected }) {
 
 // clear what properties are being used
 createNav({
-  label: 'About',
-  description: 'About our company',
-  body: 'Foo',
-  isSelected: false
+  label: "About",
+  description: "About our company",
+  body: "Foo",
+  isSelected: false,
 });
+
+/**
+ * @desc
+ * =====
+ * Functions: Should do one thing
+ * - create functions that are easy to test, compose and reason about
+ * - functions that are isolated and can be refactored easily makes reading your code much easier
+ * =====
+ */
+
+// BAD
+function getUserRouteHandler(req, res) {
+  const { userId } = req.params;
+
+  sequelize("user")
+    .where({ id: userId })
+    .first()
+    .then((user) => res.json(user));
+}
+
+// GOOD
+const User = {
+  getOne(userId) {
+    return sequelize("user").where({ id: userId }).first();
+  },
+};
+
+function getUserRouteHandler(req, res) {
+  const { userId } = req.params;
+  User.getOne(userId).then((user) => res.json(user));
+}

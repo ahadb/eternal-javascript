@@ -1,9 +1,10 @@
 /**
  * @desc
- * Objects - Use getters and setters
+ * =====
+ * Objects: Use getters and setters
  * - Prevents look ups and change your whole code base
  * - Encapsulates internal representation
- *
+ * =====
  */
 
 // BAD
