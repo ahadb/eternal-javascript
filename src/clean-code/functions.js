@@ -99,7 +99,6 @@ function initInvestorList(funds, payload) {
  * Functions: Arguments
  * - use two function arguments, if you're using more then your function
  * - is trying to do too much
- *
  * - destructuring helps and clones primitive values of the argument object
  * =====
  */
@@ -153,4 +152,63 @@ const User = {
 function getUserRouteHandler(req, res) {
   const { userId } = req.params;
   User.getOne(userId).then((user) => res.json(user));
+}
+
+/**
+ * @desc
+ * =====
+ * Functions: Side Effects & Global variables
+ * - functions should take in a value and return another value, else a function produces a side effect
+ * - mutable data types can be set by anything, avoid this common pitfall
+ * =====
+ */
+
+// BAD
+let streetAddress = "2501 Roth Avenue";
+
+function truncateAvenue() {
+  streetAddress = streetAddress.replace('Avenue', 'Ave.')
+}
+
+// we mutate global variable here, not good
+truncateAvenue();
+console.log(streetAddress);
+// => 2501 Roth Ave.
+
+// GOOD
+function truncateAvenue(str) {
+  str.replace('Avenue', 'Ave.')
+}
+
+const streetAddress = "2501 Roth Avenue";
+const newStreetAddress = truncateAvenue(streetAddress);
+console.log(streetAddress);
+// => 2501 Roth Avenue
+console.log(newStreetAddress);
+// => 2501 Roth Ave.
+
+/**
+ * @desc
+ * =====
+ * Functions: Avoid type-checking
+ * - type checking in normal JavaScript leads to extra verbiage, type safety does not make up for readability
+ * - JS should be clean and well tested, otherwise use TypeScript
+ * =====
+ */
+
+// BAD
+function merge(x, y) {
+  if (
+      (typeof x === "number" && typeof y === "number") ||
+      (typeof x === "string" && typeof y === "string")
+  ) {
+    return x + y;
+  }
+
+  throw new Error("Values must be String or Number");
+}
+
+// GOOD
+function merge(x, y) {
+  return x + y;
 }
