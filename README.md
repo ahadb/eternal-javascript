@@ -81,6 +81,7 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `03/06/23`: factoryPattern
 * `03/09/23`: pluck
 * `03/13/23`: pickObjKeys
+* `05/09/23`: toCapitalCase
 
 #### Clean Code
 
