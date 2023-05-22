@@ -82,6 +82,8 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `03/09/23`: pluck
 * `03/13/23`: pickObjKeys
 * `05/09/23`: toCapitalCase
+* `05/19/23`: mapFromArray
+* `05/22/23`: filterThenMap
 
 #### Clean Code
 
