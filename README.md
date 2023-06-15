@@ -9,6 +9,7 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 
 #### Data Structures
 
+* `16/19/23` Big O (.md)
 * `10/18/22`: SinglyLinkedList, LinkedListNode
 * `10/24/22`: Stack
 * `10/24/22`: Queue
@@ -37,6 +38,8 @@ It's in a fledgling state without order as-of-now, but grouped into specific buc
 * `02/02/23`: isBalanced
 * `02/14/23`: allCharsSame (one string)
 * `02/15/23`: allCharsSame (compare two strings)
+* `06/19/23`: removeElement (leet-easy)
+* `06/19/23`: frequencyCounter (problem solving pattern)
 
 #### Day to Day, ES6, ES2016++
 
